@@ -7,33 +7,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".kedua.AlertDialogActivity">
 
     <Button
-        android:id="@+id/btn_first"
+        android:id="@+id/alert_satu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pertama"
-        android:layout_gravity="center_horizontal"/>
+        android:text="ALert Standard"/>
 
     <Button
-        android:id="@+id/btn_latihan"
+        android:id="@+id/alert_dua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Challenge"
-        android:layout_gravity="center_horizontal"/>
+        android:text="ALert Dua"/>
 
     <Button
-        android:id="@+id/btn_navFragment"
+        android:id="@+id/alert_tiga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment"
-        android:layout_gravity="center_horizontal"/>
-
-    <Button
-        android:id="@+id/btn_alertdialog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alert Dialog"
-        android:layout_gravity="center_horizontal"/>
+        android:text="ALert Tiga"/>
 </LinearLayout>
