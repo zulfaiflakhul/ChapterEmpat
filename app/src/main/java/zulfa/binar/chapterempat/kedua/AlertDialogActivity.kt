@@ -3,9 +3,12 @@ package zulfa.binar.chapterempat.kedua
 import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_alert_dialog.*
+import kotlinx.android.synthetic.main.custom_dialog.*
+import kotlinx.android.synthetic.main.custom_dialog.view.*
 import zulfa.binar.chapterempat.R
 
 class AlertDialogActivity : AppCompatActivity() {
@@ -50,6 +53,25 @@ class AlertDialogActivity : AppCompatActivity() {
                 ab.dismiss()
             }
             ad.show()
+        }
+
+        alert_empat.setOnClickListener {
+            val custom = LayoutInflater.from(this).inflate(R.layout.custom_dialog, null, false)
+            val aa = AlertDialog.Builder(this)
+                .setView(custom)
+                .create()
+
+            custom.btn_customalert.setOnClickListener {
+
+                val nama = custom.et_nama.text.toString()
+                Toast.makeText(this, "Selamat Datang $nama", Toast.LENGTH_LONG).show()
+                aa.dismiss()
+            }
+            aa.show()
+        }
+
+        alert_lima.setOnClickListener {
+            AlertDialogFragment().show(supportFragmentManager, "abc",)
         }
     }
 }

@@ -36,4 +36,18 @@
         android:layout_height="wrap_content"
         android:text="Alert Dialog"
         android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_latAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Alert"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_tugasAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tugas Alert"
+        android:layout_gravity="center_horizontal"/>
 </LinearLayout>

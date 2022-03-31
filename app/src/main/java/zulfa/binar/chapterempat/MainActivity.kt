@@ -6,6 +6,8 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import zulfa.binar.chapterempat.challenge.satu.FirstChallenge
 import zulfa.binar.chapterempat.kedua.AlertDialogActivity
+import zulfa.binar.chapterempat.kedua.LatihanSatuActivity
+import zulfa.binar.chapterempat.kedua.tugas.TugasActivity
 import zulfa.binar.chapterempat.pertama.FirstActivity
 import zulfa.binar.chapterempat.pertama.NavComponentPertama
 
@@ -32,6 +34,16 @@ class MainActivity : AppCompatActivity() {
         btn_alertdialog.setOnClickListener {
 
             startActivity(Intent(this, AlertDialogActivity::class.java))
+        }
+
+        btn_latAlert.setOnClickListener {
+
+            startActivity(Intent(this, LatihanSatuActivity::class.java))
+        }
+
+        btn_tugasAlert.setOnClickListener {
+
+            startActivity(Intent(this, TugasActivity::class.java))
         }
     }
 }

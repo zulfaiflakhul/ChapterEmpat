@@ -2,4 +2,20 @@
     <string name="app_name">ChapterEmpat</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="struk_belanja">Struk Belanja</string>
+    <string name="barang">Barang</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="harga">Harga</string>
+    <string name="hitung">Hitung</string>
+    <string name="total_belanja">Total Belanja</string>
+    <string name="bayar">Bayar</string>
+    <string name="input_umur">Input Umur</string>
+    <string name="proses">Proses</string>
+    <string name="alert_standard">ALert Standard</string>
+    <string name="alert_dua">ALert Dua</string>
+    <string name="alert_tiga">ALert Tiga</string>
+    <string name="alert_empat">ALert Empat</string>
+    <string name="alert_dialog_fragment">ALert Dialog Fragment</string>
+    <string name="hitung_standard">hitung / standard</string>
+    <string name="hitung_fragment">Hitung / Fragment</string>
 </resources>

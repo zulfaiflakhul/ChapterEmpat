@@ -13,17 +13,29 @@
         android:id="@+id/alert_satu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ALert Standard"/>
+        android:text="@string/alert_standard"/>
 
     <Button
         android:id="@+id/alert_dua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ALert Dua"/>
+        android:text="@string/alert_dua"/>
 
     <Button
         android:id="@+id/alert_tiga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ALert Tiga"/>
+        android:text="@string/alert_tiga"/>
+
+    <Button
+        android:id="@+id/alert_empat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_empat"/>
+
+    <Button
+        android:id="@+id/alert_lima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_dialog_fragment"/>
 </LinearLayout>
