@@ -50,4 +50,18 @@
         android:layout_height="wrap_content"
         android:text="Tugas Alert"
         android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recycle View"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_tugasrv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tugas Recycle View"
+        android:layout_gravity="center_horizontal"/>
 </LinearLayout>
