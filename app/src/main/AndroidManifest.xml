@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChapterEmpat">
         <activity
+            android:name=".keempat.tugas.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".keempat.tugas.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".keempat.tugas.TugasSfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".keempat.latihan.LatihanSF"
+            android:exported="false" />
+        <activity
+            android:name=".keempat.MainSFDua"
+            android:exported="false" />
+        <activity
+            android:name=".keempat.MainSF"
+            android:exported="false" />
+        <activity
             android:name=".ketiga.tugas.TugasRecycleActivity"
             android:exported="false" />
         <activity
@@ -38,13 +62,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

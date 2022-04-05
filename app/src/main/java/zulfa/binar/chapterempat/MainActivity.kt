@@ -8,6 +8,8 @@ import zulfa.binar.chapterempat.challenge.satu.FirstChallenge
 import zulfa.binar.chapterempat.kedua.AlertDialogActivity
 import zulfa.binar.chapterempat.kedua.LatihanSatuActivity
 import zulfa.binar.chapterempat.kedua.tugas.TugasActivity
+import zulfa.binar.chapterempat.keempat.latihan.LatihanSF
+import zulfa.binar.chapterempat.keempat.MainSF
 import zulfa.binar.chapterempat.ketiga.DataMahasiswaActivity
 import zulfa.binar.chapterempat.ketiga.tugas.TugasRecycleActivity
 import zulfa.binar.chapterempat.pertama.FirstActivity
@@ -56,6 +58,16 @@ class MainActivity : AppCompatActivity() {
         btn_tugasrv.setOnClickListener {
 
             startActivity(Intent(this, TugasRecycleActivity::class.java))
+        }
+
+        btn_sf.setOnClickListener {
+
+            startActivity(Intent(this, MainSF::class.java))
+        }
+
+        btn_latsf.setOnClickListener {
+
+            startActivity(Intent(this, LatihanSF::class.java))
         }
     }
 }
